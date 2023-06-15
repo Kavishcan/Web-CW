@@ -1,0 +1,152 @@
+
+  
+  body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, 'Verdana', 'sans-serif'
+}
+    
+  .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1fabcf;
+        color: white;
+        height: 60px;
+        padding: 0 20px;}
+      
+  .logo img{
+    width: 130px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+      }
+  
+  .navbar {
+    background-color: #1fabcf;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #646a6b;}
+  
+    
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  /* Set the style of the container */
+  .container_ {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Set the style of the image */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Set the style of the text */
+  .info {
+    visibility: hidden;
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    color: #000;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  
+  .container_ {
+    width: 23%;
+    margin: 0% auto;
+    padding: 10px;
+  }
+  
+  /* Show the text when hovering over the container */
+  .container_:hover .info {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .kavishcan {
+    object-fit: contain;
+    height: 230px;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: 5px;
+  }
+  .kavishcan:hover {
+    opacity: 0.6;
+  }
+  
+  .pamood {
+    object-fit: contain;
+    height: 230px;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: 5px;
+  }
+  .pamood:hover {
+    opacity: 0.6;
+  }
+  
+  .vihanga {
+    object-fit: contain;
+    height: 230px;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: 5px;
+  }
+  .vihanga:hover {
+    opacity: 0.6;
+  }
+  
+  .sanuda {
+    object-fit: contain;
+    height: 230px;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: 5px;
+  }
+  .sanuda:hover {
+    opacity: 0.6;
+  }
+   
+  
+  .pageEdtior { 
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .pageEdtior:hover{
+    background-color: lightblue;
+  }
+  
+  

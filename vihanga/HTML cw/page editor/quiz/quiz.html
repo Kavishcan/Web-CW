@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="genaral.css">
+     
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+          <img class="logo" alt="Aquarise logo" src="WhatsApp Image 2023-03-08 at 17.09.15.jpg" />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#hero">Home</a></li>
+            <li><a class="main-nav-link" href="#adventure">Adventure</a></li>
+            <li>
+              <a class="main-nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="main-nav-link" href="#cta">Feedback</a></li>
+            <!-- <li><a class="main-nav-link" href="#cta">Feedback</a></li> -->
+            <!-- <li>
+              <a class="main-nav-link nav-cta" href="">About us</a>
+            </li> -->
+            <li>
+              <div class="Menu">
+                <input type="checkbox" id="active" />
+                <label for="active" class="menu-btn"><span></span></label>
+                <label for="active" class="close"></label>
+                <div class="wrapper">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#cta">Feedback</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <div class="quiz-container" id="quiz">
+
+        <div class="question">
+            <h3 class="first" id="counters"> Question 1 / 10    Time : 60 </h3>
+        </div>
+
+        <div class="quiz-header">
+            <h2 class="question" id="question"> Question Text </h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label class="answer" for="a" id="a_text"> Answer </label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label class="answer" for="b" id="b_text"> Answer </label>
+                    </li>
+                
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label class="answer" for="c" id="c_text"> Answer </label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label class="answer" for="d" id="d_text"> Answer </label>
+                    </li>
+                </ul>
+        
+        </div>
+    
+        <button class="nextButton" id="submit"> Next Question </button>
+    </div>
+    
+
+    <script src="quiz.js"> </script>
+
+    <footer class="footer">
+        <div class="container grid grid--footer">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img class="footer-logo" alt="Aquarise logo" src="WhatsApp Image 2023-03-08 at 17.09.15.jpg" />
+            </a>
+  
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+            </ul>
+  
+            <p class="copyright">
+              Copyright &copy; <span class="year">2023</span> by Aquarise, Inc.
+              All rights reserved.
+            </p>
+          </div>
+  
+          <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+              <p class="address">57 Ramakrishna Rd, Colombo 00600</p>
+              <p>
+                <a class="footer-link" href="tel:0766684337">0766684337</a><br />
+                <a class="footer-link" href="mailto:hello@aquarise.com"
+                  >hello@aquarise.com</a
+                >
+              </p>
+              <a class="footer-dev-link" href="">Kavishcan</a>
+            </address>
+          </div>
+  
+          <nav class="nav-col">
+            <p class="footer-heading">Quick Links</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Home</a></li>
+              <li><a class="footer-link" href="#">About us</a></li>
+              <li><a class="footer-link" href="#">Sitemap</a></li>
+              <li><a class="footer-link" href="#">Feedback</a></li>
+            </ul>
+          </nav>
+  
+          <nav class="nav-col">
+            <p class="footer-heading">Destinations</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Gallery</a></li>
+              <li><a class="footer-link" href="#">Shop</a></li>
+              <li><a class="footer-link" href="#">Events</a></li>
+              <li><a class="footer-link" href="#">Quiz</a></li>
+            </ul>
+          </nav>
+  
+          <nav class="nav-col">
+            <p class="footer-heading">Page Editors</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Student 1</a></li>
+              <li>
+                <a class="footer-link" href="pageEditor2.html">Student 2</a>
+              </li>
+              <li><a class="footer-link" href="#">Student 3</a></li>
+              <li><a class="footer-link" href="#">Student 4</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+</body>
+</html>
