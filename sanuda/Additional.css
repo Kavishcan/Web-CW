@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+      * {
+        font-family: Quicksand;
+      }
+
+      body {
+        background-color: #bed0da;
+        text-align: center;
+        object-fit: cover;
+      }
+
+      h1 {
+        color: #065587;
+        font-size: 50px;
+      }
+      img.gallery {
+        width: 30%;
+        float: left;
+        margin:none;
+        height: 300px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      img.f1{
+        width: 90%;
+        float: left;
+        margin:none;
+        height: 300px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+      img.gallery:hover,img.f1:hover {
+        transition: 1s;
+        transform: scale(1.2);
+      }
+      .gallery-main{
+        margin-left: 130px;
+        
+      }
+      .text{
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 90%;
+        margin-left: 70px;
+        margin-top: 1000px;
+        text-align: justify;
+        margin-bottom: 50px;
+        color: #0e0f4e;
+      }
+
+      .map{
+        margin-bottom: 50px;
+
+      }
+      
+      .video{
+        margin-bottom: 120px;
+        margin-left: 50px;
+      }

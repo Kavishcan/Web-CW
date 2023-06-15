@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+}
+
+.containers {
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Muli", sans-serif;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #bed0da;
+}
+
+.big {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 2fr 9fr;
+  margin-top: 12.8rem;
+  margin-bottom: 9.6rem;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: black;
+}
+
+.cta label {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta select {
+  width: 200px;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.slide {
+  /* position: relative; */
+  cursor: pointer;
+  height: 80vh;
+  flex: 1;
+  margin: 10px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 1.5s;
+}
+
+.slide:hover {
+  flex: 18;
+}
+
+.slide > img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide > h3 {
+  position: absolute;
+  color: #fff;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.slide > p {
+  position: absolute;
+  color: #ffffff;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+.slide:hover > h3 {
+  opacity: 1;
+}
+
+.slide:hover > p {
+  opacity: 1;
+}
